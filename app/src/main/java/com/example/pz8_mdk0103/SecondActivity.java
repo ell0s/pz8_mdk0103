@@ -25,8 +25,9 @@ public class SecondActivity extends AppCompatActivity {
             String name = arg.getString("name");
             String company = arg.getString("company");
             int age = arg.getInt("age");
+            String contact = arg.getString("contact");
 
-            textView.setText("имя :"+name+"\nОрганизация :"+company+"\nВозраст: "+age);
+            textView.setText("имя :"+name+"\nОрганизация :"+company+"\nВозраст: "+age+"\nПочта: "+contact);
         }
 
 
